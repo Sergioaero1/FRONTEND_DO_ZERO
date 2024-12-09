@@ -689,3 +689,24 @@ footer p {
   }
 
 }
+
+@keyframes BackgroundGradient {
+  0%{background-position:0% 50%;}
+  50%{background-position: 100% 50% }
+  100%{background-position: 0% 50%}
+
+}
+
+.VCE{
+  color: #f2f2f2;
+  background: linear-gradient(45deg, #FCE38A, #f5ad4d, #fd81b5, #f74689, #ad5af3, #8a13ef );
+  background-size: 450% 100%;
+  animation: BackgroundGradient 30s ease infinite;  
+  padding: 10px;
+  margin: -1px;
+  border-radius: 0.5rem;
+}
+
+#search{
+  color: #000000;
+}
